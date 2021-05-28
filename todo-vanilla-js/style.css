@@ -1,0 +1,38 @@
+*{
+    position: relative;
+    box-sizing: border-box;
+}
+legend{
+    margin-bottom: 10px;
+}
+#app{
+    max-width: 720px;
+    margin: 0 auto;
+}
+.list-item{
+    margin-bottom: 5px;
+    width: 100%;
+    border-bottom: solid 1px rgba(150, 150, 150, 0.5);
+}
+.list-item:hover{
+    background-color: rgba(133, 241, 255, 0.25);
+}
+.list-item div{
+    width: 100%;
+    padding: 5px;
+}
+.list-item textarea{
+    resize: none;
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    height: 50px;
+    max-height: 100px;
+}
+.list-item input{
+    margin: 5px;
+}
+
+.list-item button{
+    margin: 5px 5px 5px 15px;
+}
